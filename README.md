@@ -10,12 +10,15 @@
 
 ## 评测
 我们评估了不同数量的instruction tuning数据，对模型效果的影响。总的来说，提升数据量能持续带来效果的提升，但是在不同类型的任务上表现有所不同。在Extract, Classification, Closed QA, 和Summarization任务上，增加数据能持续带来效果的提升，还未达到瓶颈。在一些任务上，还需要进一步的提升和数据量扩充。
+
+以下是c-eval的结果</br>
 <img src="./c-eval.png" width="85%" height="85%">
 
-Cmmlu上的效果
+以下是Cmmlu上的效果</br>
 <img src="./ｃｍｍｌｕ.png" width="85%" height="85%">
 
-mmlu上的效果
+
+以下是mmlu上的效果</br>
 <img src="./ｍｍｌｕ.png" width="85%" height="85%">
 
 ## 局限性和使用限制
