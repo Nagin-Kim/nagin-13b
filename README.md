@@ -9,6 +9,11 @@
 我们收集了大概50w条包括c-eval，gaokao，cmmlu，mmlu，信通院测试数据样例以及部分开放教育题库在内的题库数据上，进行了第三阶段的打榜微调训练，模型将于近期整理开源到modelspace或huggingface。
 
 ## 评测
+我们评估了不同数量的instruction tuning数据，对模型效果的影响。总的来说，提升数据量能持续带来效果的提升，但是在不同类型的任务上表现有所不同。在Extract, Classification, Closed QA, 和Summarization任务上，增加数据能持续带来效果的提升，还未达到瓶颈。在一些任务上，还需要进一步的提升和数据量扩充。
+
+![Image text](./ceval.png)
+
+
 
 ## 局限性和使用限制
 基于当前数据和基础模型训练得到的SFT模型，在效果上仍存在以下问题：
