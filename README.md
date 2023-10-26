@@ -18,7 +18,7 @@
 <img src="./ｃｍｍｌｕ.png" width="100%" height="100%">
 
 
-以下是mmlu上的效果</br>
+以下是mmlu上的评测效果</br>
 <img src="./ｍｍｌｕ.png" width="100%" height="100%">
 
 ## 局限性和使用限制
