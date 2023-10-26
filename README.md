@@ -15,7 +15,7 @@
 <img src="./c-eval.png" width="100%" height="100%">
 
 以下是Cmmlu上的效果</br>
-<img src="./ｃｍｍｌｕ.png" width="100%" height="100%" >
+<img src="./CMMLU.png" width="100%" height="100%" >
 
 
 以下是mmlu上的评测效果</br>
